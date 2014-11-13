@@ -1,0 +1,81 @@
+extends layout
+
+block content
+    .main
+      section.home
+        .container
+          .row
+            .home-copy.col-xs-12.col-sm-8.col-sm-offset-2.animated.fadeInDown.delay-2
+              h1.demo1
+                br
+                span.rotate
+                  | Oli d'oliva
+                  br
+                  | verge, Virgin
+                  br
+                  | olive
+                  br
+                  | oil, Aceite de oliva virgen, Natives Olivenöl, Huile d'olive vierge
+              br
+              p
+                | Oli d'oliva de categoria superior obtingut directament d'olives i només mitjançant procediments mecànics
+              span.take-a-look.animated.fadeInDown.delay-8
+                i.entypo-down-open
+                | Fes un cop d'ull
+      section.slide-2.slide
+        .container
+          .row
+            .col-xs-12.col-sm-4.copy
+              h2.hide.slide-2-title.slide-titles Oli d'oliva La Mundana
+              p.slide-2-1.hide.hidden-xs Entre la serralada del Montsià i del delta de l'Ebre,
+              p.slide-2-2.hide.hidden-xs en una terra de contrasts,
+              p.slide-2-3.hide.hidden-xs la nostra família transforma un fruit molt preuat:
+            .col-xs-12.col-sm-4.iphone-container
+              img.hide.iphone-2(src='/images/mundana-7.png', alt='')
+            .col-xs-12.col-sm-4.copy
+              p.slide-2-4.hide.hidden-xs les olives, en un oli de caràcter,
+              p.slide-2-5.hide.hidden-xs que perduren el treball i la dedicació,
+              p.slide-2-6.hide.hidden-xs des dels nostres inicis fins al dia d'avui.
+              i.hide.entypo-down-open.slide-2-scroll.scroll-down.hidden-xs
+      section.slide-1.slide
+        .container
+          .row
+            .col-xs-12.col-sm-6.iphone-container
+              img.hide.iphone-1(src='/images/mundana-7.png', alt='')
+            .col-xs-12.col-sm-4.copy
+              h2.hide.slide-1-title.slide-titles Productes
+              p.slide-1-1.hide Oli d'oliva verge de km 0
+              p.slide-1-2.hide.hidden-xs Vidre, 0.5 litres i plàstic 1 litre, 2 litres i 5 litres
+              i.hide.entypo-down-open.slide-1-scroll.scroll-down.hidden-xs
+      section.contact
+        .row
+          .col-xs-12.col-sm-6.col-sm-offset-3.col-md-6.col-md-offset-3
+            h2 Contacte
+            p
+              i.entypo-phone
+              | 620 521 624
+              br
+              i.entypo-mobile
+              | 669 028 544
+              br
+              p  Sant Carles de la Rapita, 43540, Tarragona. Poligon Industrial El Salt, s/n
+              p
+                b  info@la-mundana.com
+                p
+                  .social.clearfix
+                    a.social-item.facebook(href='https://www.facebook.com/olidolivalamundana')
+                      i.entypo-facebook
+
+    .icon.animated.fadeInLeft.delay-3
+      span  La Mundana 
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js')
+    script
+      window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\\/script>')
+    script(src='/javascripts/vendor/bootstrap.min.js')
+    script(src='/javascripts/vendor/jquery-ui-1.8.22.custom.min.js')
+    script(src='/javascripts/vendor/jquery.imagesloaded.min.js')
+    script(src='http://vjs.zencdn.net/4.0/video.js')
+    script(src='/javascripts/vendor/bigvideo.js')
+    script(src='/javascripts/vendor/jquery.simple-text-rotator.min.js')
+    script(src='/javascripts/vendor/jquery.onepage-scroll-custom-min.js')
+    script(src='/javascripts/main-min.js')
