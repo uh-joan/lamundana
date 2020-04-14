@@ -2,8 +2,13 @@
   "name": "lamundana",
   "version": "0.0.0",
   "private": true,
+  "license": "ISC",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node index.js",
+    "now-start": "node index.js",
+    "build": "echo 'BUILD STEP GOES HERE'",
+    "now-build": "echo 'NOW BUILD STEP WENT HERE!'",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "express": "~4.9.0",
